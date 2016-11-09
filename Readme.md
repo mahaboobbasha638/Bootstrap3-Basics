@@ -142,7 +142,7 @@
         <blockquote class="blockquote-reverse">
             <p>Quote text</p>
             <footer>Mahaboob Basha</footer>
-        </div>
+        </blockquote>
 
 ## List style
 - "list-unstyled" class will disable the list format, but only that particular level. if you want in sublevels as will we need to add for each level.
