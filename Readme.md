@@ -7,8 +7,14 @@
     - Two typs of Containers
         - Fluid container
             - Always adjusts with size of the device
+
+                    <div class="container-fluid"></div>
+
         - Fixed-Width container
             - Specific width size depending on the size of view port
+
+                    <div class="container"></div>
+
             - 15px padding on each side
             - adjusts to media query breakpoints 
                 - width: auto; < 768px width
@@ -16,13 +22,20 @@
                 - width: 970px; >= 992px width
                 - width: 1170px; >= 1200px width
 
+
 - Rows
     - Allow you to create Horizontal groups 
     - Place within container
     - Should Always include Columns
     - Get rid of container padding
+
+            <div class="row"></div>
+
 - Columns
     - Allow you to create vertical groups
+
+            <div class="col-SIZE-SPAN"></div>
+
     - it creates 30px gutters
         - 15px on each side
     - (>12) columns wrap
@@ -47,10 +60,13 @@
 - By using clearfix and Resoponse utility class like visible-sm-block, hidden-sm we can Fixed
     random alignment issues when heights are not equal.
 
+        <div class="clearfix visible-sm-block"></div>
+
 ## Offsetting columns
 - On small screen we can add offset to adjust in the middile by adding column offset
         
         <div class="col-xs-offset-3 col-xs-6 col-md col-md-4 col-lg-6"></div>
+
 - We need to clear by adding offset zero in the next break point without affeting further
 
         <div class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-md-4 col-lg-6"></div>
@@ -68,13 +84,18 @@
 # Bootstrap CSS classes
 
 ## Heading and body style
-- It will look ofr Helvetica, Arial after that sans-serif
+- It will look family  Helvetica, Arial after that sans-serif order
 - You can use classes h1, h2 etc.. instead of tags
     
         <div class="h1"></div>
 
 - You can use small tag as well as class to differentiate secondary text
+
+        <small>Secondary text</small>
+
 - Lead class will make text different compared to existing.
+
+        <p class="lead"> The practice environment </p>
 
 ## Inline text styles
 - "Mark" tag will give background color yellow
@@ -83,10 +104,18 @@
 - "strong", "b" for bold
 - "em", "i" for emphosis tag shows with italic
 
+        <mark>practice</mark>
+        <s>load</s>
+        <del>exercise</del>
+        <ins>accessible</ins>
+
 ## Alignment, transformation and abbreviations
 ### Alignment
 - We can use alignment classes like "text-left" for floating text to left
     - text-left -> for float left
+
+            <p class="text-left"></p>
+
     - text-rigt -> for float right
     - text-center -> for center
     - text-justify -> for justify
@@ -95,6 +124,9 @@
 ### transformation
 - We can use transformation classeds to text transformation
     - text-lowercase -> lowercase letters
+
+            <p class="text-lowercase"></p>
+
     - text-uppercase -> for capitalize
     - text-capitalize -> for firstletter capitalize
 ### Abbreviations    
@@ -107,7 +139,10 @@
 - by footer tag we can add author as will in proper alignment
 - blockquote-reverse class will float right and add indentation in the right
 
-        <blockquote class="blockquote-reverse"></div>
+        <blockquote class="blockquote-reverse">
+            <p>Quote text</p>
+            <footer>Mahaboob Basha</footer>
+        </div>
 
 ## List style
 - "list-unstyled" class will disable the list format, but only that particular level. if you want in sublevels as will we need to add for each level.
@@ -137,14 +172,27 @@
 
 ## styling code 
 - we can use kbd tag to create keyboard button look, using var tag italisize the text( for equations).
+
+        <kbd>control-c</kbd>
+
 - Pre tag will keep the text as it is and keep into a block with proper border (to display java script code etc).
+
+        <pre></pre>
+
 - by adding pre-scrollable class it will prove scrollable box.
+
+        <pre class="pre-scrollable"></pre>
 
 # Other CSS Styles
 ## buttons
 - btn class allows the add the buttons style
 - Default btn style calsses 
     - btn, btn-default
+
+            <a class="btn btn-default" href="#" role="button">Link</a>
+            <button class="btn btn-default" type="submit">Button</button>
+            <input class="btn btn-primary" value="Input" type="submit">
+
 - Button content classes 
     - btn-primary
     - btn-success 
@@ -157,10 +205,18 @@
     - btn-md
     - btn-lg
     - btn-block
+
+            <input class="btn btn-primary btn-xs" value="Input" type="submit">
+
 - Button state class
     - active
+
+            <h3 class="btn btn-default active">Active</h3>
+
 - Button disabled class
     - disabled
+
+            <button class="btn btn-default disabled">Disabled Button</button>
 
 ## Tables
 - "table" class will give proper style to table.
@@ -176,6 +232,18 @@
     - warning
     - danger
 
+            <div class="table-responsive">
+                <table class="table table-striped table-hover table-border table-condensed">
+                    <thead>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr class="primary"></tr>
+                    </tbody>
+                </table>
+            </div>
+
+
 - By keeping the table inside container class "table-contanier" will make the table responsive.
 
 ## Images
@@ -185,18 +253,29 @@
 - By adding "img-circle" it will give circle images.
 - By adding "img-thumbnail" it will give circle images.
 
+            <img class="img-rounded img-responsive center-block" src="images/drwinthrop.jpg" alt="Dr Winthrop Photo">
+
 ## Helper classes
 - text-muted for light color
 - Can add contextual colors
     - text-primary
     - text-success ..etc
+
+            <p class="text-primary"></p>
+
 - Can add background colors using contentual colors
     - bg-primary
     - bg-success ..etc
+
+            <p class="bg-success"></p>
+
 - Layout class (ex on image can add)
     - pull-left
     - pull-right
     - center-block
+
+            <img class="pull-left" src="images/field_sm.jpg" alt="Dr Winthrop Photo">
+
 - Can add show/hidden class to show and hide elements
 - Class "Invisible" will hide the image but it will take the corresponding space.
 
@@ -211,15 +290,32 @@
         - hidden-xs hide the element in xs breakpoint
         - Print element will appear when printing the element
             - visible-print-block
+
+                    <span class="h1 visible-xs-block">Lorem</span>
+                    <span class="h1 hidden-xs">Lorem</span>
+
 # Styling Forms
 ## Basic Forms
 - "form-control" class will style the inputbox to width and proper padding
 - "form-group" class will create little bit of seperation between element 
 
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input class="form-control" id="inputName" placeholder="Name" type="text">
+            </div>
+
 ## Radio and Check boxes
 - Classes "radio", "checkbox" will give the proper alignemnts
 - Classes "radio-inline", "checkbox-inline" will display all the radio and checkbox elements in a line
 - disabled propery will disable the selection of the elements
+
+            <div class="form-group"> 
+                <label class="radio-inline">
+                    <input name="options" disabled="" type="radio">
+                    One
+                </label>
+            </div>
+
 ## Inline Forms
 - "form-inline" class dispaly form inline style but only in min width of 768px.
 ## Horizontal Forms
@@ -227,8 +323,9 @@
 - On desktop we can align in the center label and textbox next to eachother
 - On mobile label and textbox one after the Other
 - "form-horzontal" will solve that purpose
+
 ## Validation Styles
-- We can show the validation state to the user
+- We can show the validation state to the user within the inputbox itself with color and icons
     - has-warning
 
             <div class="form-group has-warning">
