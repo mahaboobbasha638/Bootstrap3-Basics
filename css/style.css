@@ -1,0 +1,50 @@
+.bgimage{
+    background-image: url('../images/reptiles.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+}
+
+.highlight{
+    color: #3875d7;
+}
+
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+@media (min-width: 1200px){
+    .nesting h3{
+        margin-top: 0;
+    }
+    .services section{
+        text-align: left;
+    }
+}
+
+.seperator{
+   border-bottom: 1px solid blue;
+   padding-bottom: 10px;
+}
+
+.h2-margin-top{
+    margin-bottom: 10px;
+}
+
+.h2-margin-top h2{
+    margin-top: 0;
+}
+
+.h2-margin-top p{
+    margin-bottom: 0;
+}
+
+.states h3{
+    margin-top: 0;
+}

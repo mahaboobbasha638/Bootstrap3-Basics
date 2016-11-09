@@ -1,0 +1,2304 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>BootStrap</title>
+    </head>
+    <body>
+        
+        <header class="bgimage">
+            <div class="container">
+                <h1>Headline</h1>
+            </div>
+        </header>
+        
+        <h1>Welcome to your practice environment!</h1>
+        <p>
+            The practice environment will load your course exercise files, accessible in the gray panel on the left.
+            All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+        </p>
+        
+        <h1><p class="highlight">Bootstrap Grid:</p></h1>
+        <hr>
+        
+        <div class="container-fluid">
+            <h1>container-fluid</h1>
+            <p class="highlight">Always adjusts with width of the device.</p>
+            <p>
+                The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+            </p>    
+        </div>
+        
+        <div class="container">
+            <h1>container</h1>
+            <p class="highlight">Specific width size depending on the break point.</p>
+            <p>
+                The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+            </p>    
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <h1>row</h1>
+                <p class="highlight">
+                    On adding row, it will get rid of container padding by adding negative margin.
+                </p>
+                <p>
+                    The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>   
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Column</h1>
+                    <p class="highlight">
+                        On adding column, at break point it will break the container into corresponding columns otherwise full width. Works in both containers.
+                    </p>
+                    <p>
+                        <span class="col-xs-12">- SIZE represents at which break points it has to devide into the columns</span>
+                        <span class="col-xs-12">- Extra Small .col-xs- width: auto; < 768px width </span>
+                        <span class="col-xs-12">- Small .col-sm- width: ~62px; >= 768px width </span>
+                        <span class="col-xs-12">- medium .col-md- width: ~81px; >= 992px width </span>
+                        <span class="col-xs-12">- Large .col-lg- width: ~97px; >= 1200px width </span>
+                    </p>       
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+                <div class="col-md-2">
+                    <h1>Column 2</h1>
+                    <p class="highlight">
+                        It will adjust in Medium breakpoints.
+                    </p>
+                    <p>
+                        The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                        All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                    </p>       
+                </div>
+            </div>
+        </div>
+        
+        <div class="services container">
+            <h2>Columns: Adding breakpoints</h2>
+            <p class="highlight">
+                It will break as On SM into 2 columns, On MD into 3 columns, On LG into 6 columns
+            </p>
+            <div class="row">
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+                    <h3>Exotic Pets</h3>
+                    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+                    <h3>Grooming</h3>
+                    <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-health.svg" alt="Icon">
+                    <h3>GeneralHealth</h3>
+                    <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+                    <h3>Nutrition</h3>
+                    <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+                    <h3>Pest Control</h3>
+                    <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+                    <h3>Vaccinations</h3>
+                    <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                </section>   
+            </div>  
+        </div>
+        
+        <div class="services container">
+            <h2>Columns: Fixing issues with heights of elements in diffente break points</h2>
+            <p class="highlight">
+                Adjusting elements when the elements doesn't have same height and floating randomly using clearfix and Responsive utility classes
+                like visible-sm-block, hidden-sm.
+            </p>
+            <div class="row">
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-health.svg" alt="Icon">
+                    <h3>General Health</h3>
+                    <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                </section>
+                
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+                    <h3>Exotic Pets</h3>
+                    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                </section>
+            
+                <div class="clearfix visible-sm-block"></div>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+                    <h3>Grooming</h3>
+                    <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+                    <h3>Nutrition</h3>
+                    <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+                    <h3>Pest Control</h3>
+                    <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                </section>
+            
+                <section class="col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+                    <h3>Vaccinations</h3>
+                    <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                </section>   
+            </div>  
+        </div>
+        
+        <div class="services container">
+            <h2>Offsetting Columns</h2>
+            <p class="highlight">
+                By adding the column offset like .col-xs-offset-3, .col-xs-6 we can keep in center on small screen, and need to clear by adding the
+                col-sm-offset-0 in the next break point.
+            </p>
+            <div class="row">
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-health.svg" alt="Icon">
+                    <h3>General Health</h3>
+                    <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                </section>
+                
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+                    <h3>Exotic Pets</h3>
+                    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                </section>
+            
+                <div class="clearfix visible-sm-block"></div>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+                    <h3>Grooming</h3>
+                    <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+                    <h3>Nutrition</h3>
+                    <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+                    <h3>Pest Control</h3>
+                    <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-2">
+                    <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+                    <h3>Vaccinations</h3>
+                    <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                </section>   
+            </div>  
+        </div>
+        
+        <div class="services container">
+            <h2>Nesting Columns</h2>
+            <p class="highlight">
+                We can add rows inside rows and can play with columns. Check on large break points it will work differently.
+            </p>
+            <div class="row nesting">
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-health.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>General Health</h3>
+                            <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Exotic Pets</h3>
+                            <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <div class="clearfix visible-sm-block"></div>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Grooming</h3>
+                            <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Nutrition</h3>
+                            <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Pest Control</h3>
+                            <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="col-xs-offset-3 col-xs-6 col-sm-offset-0 col-sm-6 col-md-4 col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-1 col-lg-offset-3">
+                            <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+                        </div>
+                        <div class="col-lg-5">
+                            <h3>Vaccinations</h3>
+                            <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                        </div>
+                    </div>
+                </section>   
+            </div>  
+        </div>
+        
+        <div class="services container">
+            <h2>Customizing column order with push and pull</h2>
+            <p class="highlight">
+                By adding push and pull class we can reorder in that particular break points.
+            </p>
+            <div class="row">
+                <section class="col-xs-4 col-sm-push-8">
+                    <img class="icon" src="images/icon-health.svg" alt="Icon">
+                    <h3>General Health</h3>
+                    <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                </section>
+                
+                <section class="col-xs-4">
+                    <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+                    <h3>Exotic Pets</h3>
+                    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                </section>
+            
+                <div class="clearfix visible-xs-block hidden-xs"></div>
+            
+                <section class="col-xs-4 col-sm-pull-8">
+                    <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+                    <h3>Grooming</h3>
+                    <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                </section>
+            
+                <section class="col-xs-4">
+                    <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+                    <h3>Nutrition</h3>
+                    <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+                </section>
+            
+                <section class="col-xs-4">
+                    <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+                    <h3>Pest Control</h3>
+                    <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
+                </section>
+            
+                <section class="col-xs-4">
+                    <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+                    <h3>Vaccinations</h3>
+                    <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
+                </section>   
+            </div>  
+        </div>
+        
+        <h1><p class="highlight">Bootstrap CSS Classes:</p></h1>
+        <hr>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Header tag class</h1>
+                <p class="highlight">
+                    We can use h1, h2 etc as classes instead of tags.
+                </p>
+                <div class="h1">Headline1</div>
+                <p>
+                    The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the <span class="h1">window</span> is responsive – so you can focus on what matters most to you.
+                </p> 
+            </div>
+        </div>
+        <div class="container seperator">
+            <div class="row">
+                <h1>Header <small>Secondary text</small></h1>
+                <p class="highlight">
+                    We can use small tag in header tags to differentiate subtext. Also we can use small as Class.
+                </p>
+                <div class="h1">Headline1</div>
+                <p>
+                    The practice <span class="small">environment will load your course exercise files,</span> accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the <span class="h1">window</span> is responsive – so you can focus on what matters most to you.
+                </p> 
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Lead Class</h1>
+                <p class="highlight">
+                    Lead class text stand out diffenet compared to present style.
+                </p>
+                <div class="h1">Headline1</div>
+                <p>
+                    The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="lead">
+                    The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p> 
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Inline text style</h1>
+                <p class="highlight">
+                    It has different tags to for styles like mark, s, del, ins, u, strong, b, em, i for inline styles.
+                </p>
+                <p>
+                    The <mark>practice</mark> environment will <s>load</s> your course <del>exercise</del> files, <ins>accessible</ins> in the gray panel on the left.
+                    All of these <u>panels</u> <strong>can</strong> be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Alignment</h1>
+                <p class="highlight">
+                    We can use classes like text-left, text-right, text-center for aligning text left, right and center.
+                </p>
+                <p class="text-left">
+                    <mark>Text-left</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-right">
+                    <mark>Text-right</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-center">
+                    <mark>Text-center</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-justify">
+                    <mark>Text-justify</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-nowrap">
+                    <mark>Text-nowrap</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p> 
+                
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Transformation</h1>
+                <p class="highlight">
+                    We can use classes like Text-lowercase, Text-uppercase, Text-capitalize for lowercase, uppercase and capitalize text.
+                </p>
+                <p class="text-lowercase">
+                    <mark>Text-lowercase</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-uppercase">
+                    <mark>Text-uppercase</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+                <p class="text-capitalize">
+                    <mark>Text-capitalize</mark> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Abbreviations</h1>
+                <p class="highlight">
+                    We can user abbr tag for abbrevations. on hover it will show the abbrevation of the text.
+                </p>
+                <p class="text-lowercase">
+                    <abbr title="Indian Space Research Organization" class="initialism">ISRO</abbr> -> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive – so you can focus on what matters most to you.
+                </p>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Blockquotes</h1>
+                <p class="highlight">
+                    blockquote tag gives the proper indentation. By footer we can add author name.
+                </p>
+                <blockquote>
+                    <p><abbr title="Indian Space Research Organization" class="initialism">ISRO</abbr> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive. so you can focus on what matters most to you.</p>
+                    <footer>Mahaboob Basha</footer>
+                </blockquote>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Blockquotes-reverse class</h1>
+                <p class="highlight">
+                    blockquote tag gives the proper indentation. By footer we can add author name.
+                </p>
+                <blockquote class="blockquote-reverse">
+                    <p><abbr title="Indian Space Research Organization" class="initialism">ISRO</abbr> The practice environment will load your course exercise files, accessible in the gray panel on the left.
+                    All of these panels can be expanded, and the window is responsive. so you can focus on what matters most to you.</p>
+                    <footer>Mahaboob Basha</footer>
+                </blockquote>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>List style</h1>
+                <section class="col-xs-12 h2-margin-top">
+                    <p class="highlight">
+                        By adding "list-unstyled" list will skip the styling to that particular list. it will affect only to the current level, for sublevel need to add class again.
+                    </p>
+                    <section class="col-xs-6">
+              
+                        <h2>List</h2>
+                        <ol>
+                            <li>Lorem ipsum</li>
+                            <li>Velit
+                                <ul>
+                                    <li>Eligendi modi soluta</li>
+                                    <li>Architecto tempora</li>
+                                </ul>
+                            </li>
+                          <li>Obcaecati molestiae</li>
+                        </ol>
+                    </section>
+                    <section class="col-xs-6">
+              
+                        <h2>List</h2>
+                        <ol class="list-unstyled">
+                            <li>Lorem ipsum</li>
+                            <li>Velit
+                                <ul>
+                                    <li>Eligendi modi soluta</li>
+                                    <li>Architecto tempora</li>
+                                </ul>
+                            </li>
+                          <li>Obcaecati molestiae</li>
+                        </ol>
+                    </section>
+                </section>
+                <section class="col-xs-12 h2-margin-top">
+                    <p class="highlight">
+                        By adding "list-inline" list will keep all the list item in one line and remove the bullets.
+                    </p>
+                    <section class="col-xs-6">
+                        <h2>Another List</h2>
+                        <ul>
+                            <li>quam</li>
+                            <li>porro</li>
+                            <li>quasi</li>
+                        </ul>
+                    </section>
+                    <section class="col-xs-6">
+                        <h2>Another List</h2>
+                        <ul class="list-inline">
+                            <li>quam</li>
+                            <li>porro</li>
+                            <li>quasi</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="col-xs-12">
+                    <h2>Definitions</h2>
+                    <dl>
+                        <dt>Lorem</dt>
+                        <dd>Ipsum dolor sit amet, consectetur adipisicing elit. Esse quo ducimus dolorum dolore ipsam unde, facere explicabo quae natus alias deserunt quibusdam voluptatem, officiis itaque rerum magni eius odio mollitia!</dd>
+                  
+                        <dt>Sed</dt>
+                        <dd>Doloremque quam porro ab ratione facilis, magni quo, velit impedit facere, error, rem obcaecati asperiores veniam vitae. Culpa vel dolorem fugiat odit numquam voluptates ut, quasi minima est unde? Lorem*5</dd>
+                  
+                        <dt>Quia</dt>
+                        <dd>Corporis ut, quisquam sed optio debitis eveniet ad provident soluta, aspernatur ducimus placeat illum. Similique quas odio repudiandae perferendis facilis quos, consectetur suscipit, ad velit error, enim, minus quidem!</dd>
+                    </dl>
+                </section>
+                <section class="col-xs-12">
+                    <h2>Definitions</h2>
+                    <p class="highlight">
+                        By adding "dl-horizontal" for defination list at certain break points it will go to the two column layout.
+                    </p>
+                    <dl class="dl-horizontal">
+                        <dt>Lorem</dt>
+                        <dd>Ipsum dolor sit amet, consectetur adipisicing elit. Esse quo ducimus dolorum dolore ipsam unde, facere explicabo quae natus alias deserunt quibusdam voluptatem, officiis itaque rerum magni eius odio mollitia!</dd>
+                  
+                        <dt>Sed</dt>
+                        <dd>Doloremque quam porro ab ratione facilis, magni quo, velit impedit facere, error, rem obcaecati asperiores veniam vitae. Culpa vel dolorem fugiat odit numquam voluptates ut, quasi minima est unde? Lorem*5</dd>
+                  
+                        <dt>Quia</dt>
+                        <dd>Corporis ut, quisquam sed optio debitis eveniet ad provident soluta, aspernatur ducimus placeat illum. Similique quas odio repudiandae perferendis facilis quos, consectetur suscipit, ad velit error, enim, minus quidem!</dd>
+                    </dl>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <h2>Inline Code</h2>
+                    <p class="highlight">
+                        "code" tag emphasie the text.
+                    </p>
+                    <p>To emphasize text, you can use the <code>&lt;em&gt;</code> tag.</p>
+            
+                    <h2>Control Keys</h2>
+                    <p class="highlight">
+                        "kbd" tag text inside box with rounded edges.
+                    </p>
+                    <p>To stop the execution of a process use <kbd>control-c</kbd> or <kbd>q</kbd></p>
+            
+                    <h2>Variables</h2>
+                    <p class="highlight">
+                        "var" tag provides the search engine additional semantic data.
+                    </p>
+                    <var>e</var> = <var>m</var><var>c</var>&sup2;
+            
+                    <h2>Short Script</h2>
+                    <p class="highlight">
+                        html ignores white space, so javascript code looks weired. so adding pre tag will give proper box.
+                    </p>
+<pre>
+    //replace IMG inside carousels with a background image
+    $('#featured .item img').each(function() {
+      var imgSrc = $(this).attr('src');
+      $(this).parent().css({'background-image': 'url('+imgSrc+')'});
+      $(this).remove();
+    });
+</pre>
+                    
+                    
+                    <h4>Sample Output</h4>
+                    <p class="highlight">
+                        "samp" tag uses to show the results of the code.
+                    </p>
+                    
+                    <samp>
+                        &lt;div class=&quot;item active&quot; style=&quot;background-image: url(images/carousel-lifestyle.jpg);&quot;&gt;&lt;/div&gt;
+                    </samp>
+                    
+                    
+                    <h2>Long Script</h2>
+                    <p class="highlight">
+                        For long block of code we can use "pre-scrollable" to make scrollable block with max-height 300px;
+                    </p>
+<pre class="pre-scrollable">
+    //replace IMG inside carousels with a background image
+    $('#featured .item img').each(function() {
+      var imgSrc = $(this).attr('src');
+      $(this).parent().css({'background-image': 'url('+imgSrc+')'});
+      $(this).remove();
+    });
+    
+    //Use smooth scrolling when clicking on navigation
+    $('.navbar a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') === 
+        this.pathname.replace(/^\//,'') && 
+        location.hostname === this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top-topoffset+2
+          }, 500);
+          return false;
+        } //target.length
+      } //click function
+    }); //smooth scrolling
+</pre>
+                    
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Buttons</h1>
+                <section class="col-xs-12">
+              
+                    <h2>Types</h2>
+                    <a href="#" role="button">Link</a>
+                    <button type="submit">Button</button>
+                    <input type="submit" value="Input">
+                    
+                </section>
+                <section class="col-xs-12">
+                    <p class="highlight">
+                        "btn" will gives the style of the button, "btn-default" gives default style.<br>
+                        
+                    </p>
+                    <a class="btn btn-default" href="#" role="button">Link</a>
+                    <button class="btn btn-default" type="submit">Button</button>
+                    <input class="btn btn-default" type="submit" value="Input">
+                    
+                </section>
+                
+                <h2>Contextual Classes</h2>
+                <section class="col-xs-12">
+              
+                    
+                    <button>Default</button>
+                    <button>Primary</button>
+                    <button>Success</button>
+                    <button>Info</button>
+                    <button>Warning</button>
+                    <button>Danger</button>
+                </section>
+                <section class="col-xs-12">
+                    <p class="highlight">
+                        it has contextual class like btn-primary, btn-success etc.
+                    </p>
+                    <button class="btn btn-default">Default</button>
+                    <button class="btn btn-primary">Primary</button>
+                    <button class="btn btn-success">Success</button>
+                    <button class="btn btn-info">Info</button>
+                    <button class="btn btn-warning">Warning</button>
+                    <button class="btn btn-danger">Danger</button>
+                </section>
+                
+                <section class="col-xs-12">
+                    <h2>Sizes</h2>
+                    <button>Default</button>
+                    <button>Large</button>
+                    <button>Small</button>
+                    <button>Extra Small</button>
+                    <button>Block Level</button>
+              
+                </section>
+                <section class="col-xs-12">
+                    <p class="highlight">
+                        It has sizes calss as well like btn-md, btn-lg etc.
+                    </p>
+                    <button class="btn btn-default">Default</button>
+                    <button class="btn btn-default btn-lg">Large</button>
+                    <button class="btn btn-default btn-sm">Small</button>
+                    <button class="btn btn-default btn-xs">Extra Small</button>
+                    <button class="btn btn-default btn-block">Block Level</button>
+              
+                </section>
+                
+                <section class="col-xs-12 states">
+                    <h2>States</h2>
+                    <h3 class="btn btn-default">Active</h3>
+                    <p class="highlight">
+                        active class will give the activeness of the button.
+                    </p>
+                    <h3 class="btn btn-default active">Active</h3>
+                    <button class="btn btn-default active">Active Button</button>
+              
+                    <h3>Disabled</h3>
+                    <p class="highlight">
+                        disabled class will disable the button.
+                    </p>
+                    <button class="btn btn-default disabled">Disabled Button</button>
+                    <a href="#" class="btn btn-default disabled">Disabled Link Button</a>
+            
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Tables</h1>
+                <section class="col-xs-12">
+            
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Color</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Normal</th>
+                                <td>Default</td>
+                                <td>Default color to a particular row or cell</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">active</th>
+                                <td>Gray</td>
+                                <td>Active color to a particular row or cell</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">success</th>
+                                <td>Green</td>
+                                <td>A successful or positive action</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">info</th>
+                                <td>Blue</td>
+                                <td>A neutral informative change or action</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">warning</th>
+                                <td>Yellow</td>
+                                <td>A warning that might need attention, but not too scary</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">danger</th>
+                                <td>Red</td>
+                                <td>Dangerous or potentially negative action</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            
+                </section>
+                <p class="highlight">
+                   "table" class will give proper style to table.<br>
+                   Style the table by adding styling classes like table-striped, table-hover, table-border, table-condensed, <br> 
+                   By adding contextual class like primary, danger, warning, info etc classes you can give colors.<br>
+                   By adding table-container make the table responsive like enables scroll an long row size.
+                </p>
+                <section class="col-xs-12">
+            
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover table-border table-condensed">
+                            <thead>
+                                <tr>
+                                    <th>Class</th>
+                                    <th>Color</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Normal</th>
+                                    <td>Default</td>
+                                    <td>Default color to a particular row or cell</td>
+                                </tr>
+                                <tr class="primary">
+                                    <th scope="row">active</th>
+                                    <td>Gray</td>
+                                    <td>Active color to a particular row or cell</td>
+                                </tr>
+                                <tr class="success">
+                                    <th scope="row">success</th>
+                                    <td>Green</td>
+                                    <td>A successful or positive action</td>
+                                </tr>
+                                <tr class="info">
+                                    <th scope="row">info</th>
+                                    <td>Blue</td>
+                                    <td>A neutral informative change or action</td>
+                                </tr>
+                                <tr class="warning">
+                                    <th scope="row">warning</th>
+                                    <td>Yellow</td>
+                                    <td>A warning that might need attention, but not too scary</td>
+                                </tr>
+                                <tr class="danger">
+                                    <th scope="row">danger</th>
+                                    <td>Red</td>
+                                    <td>Dangerous or potentially negative action</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <div class="row">
+                <h1>Images</h1>
+                <section class="col-sm-4">
+                    <img src="images/drwinthrop.jpg"
+                      alt="Dr Winthrop Photo">
+                    <h3>Dr. Winthrop</h3>
+                    <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+                </section>
+                
+                <section class="col-sm-4">
+                    <img src="images/drchase.jpg"
+                      alt="Dr Chase Photo">
+                    <h3>Dr. Chase</h3>
+                    <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.</p>
+                </section>
+                
+                <section class="col-sm-4">
+                    <img src="images/drsanders.jpg"
+                      alt="Dr Sanders Photo">
+                    <h3>Dr Sanders</h3>
+                   <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for Leroy's guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+                </section>
+                
+            </div>
+            <p class="highlight">
+                By adding the "img-responsive" class image gets the resonsive style.<br>
+                By adding "center-block" will make the image in the center of the column.<br>
+                By adding "img-rounded" it added rounded edges.<br>
+                By adding "img-circle" it will give circle images.<br>
+                By adding "img-thumbnail" it will give circle images.
+             </p>
+            <div class="row">
+                <section class="col-sm-4">
+                    <img src="images/drwinthrop.jpg" class="img-rounded img-responsive center-block"
+                      alt="Dr Winthrop Photo">
+                    <h3>Dr. Winthrop</h3>
+                    <p>Dr. Winthrop is the guardian of Missy, a three-year old Llaso mix, who he adopted at the shelter. Dr. Winthrop is passionate about spay and neuter and pet adoption, and works tireless hours outside the clinic, performing free spay and neuter surgeries for the shelter.</p>
+                </section>
+                
+                <section class="col-sm-4">
+                    <img src="images/drchase.jpg" class="img-circle img-responsive center-block"
+                      alt="Dr Chase Photo">
+                    <h3>Dr. Chase</h3>
+                    <p>Dr. Chase spends much of her free time helping the local rescue organization find homes for animals, such as Kibbles - a Maine Coon Cat who is part of the large Chase household, including two dogs, three cats, and a turtle.</p>
+                </section>
+                
+                <section class="col-sm-4">
+                    <img src="images/drsanders.jpg" class="img-thumbnail img-responsive center-block"
+                      alt="Dr Sanders Photo">
+                    <h3>Dr Sanders</h3>
+                   <p>Leroy walked into Dr. Sanders front door when he was moving into a new house. After searching for weeks for Leroy's guardians, he decided to make Leroy a part of his pet family, and now has three cats.</p>
+                </section>
+                
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Helper Classes</h1>
+            <div class="row">
+                <section class="col-xs-12">
+              
+                    <img src="images/field_sm.jpg" alt="Dr Winthrop Photo">
+                    
+                    <p><strong>Muted</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi et id similique cumque consequatur ea minima quas, esse natus molestiae blanditiis laboriosam atque veritatis. Animi sapiente, ipsa! Cum, ad.</p>
+                    
+                    <p><strong>Primary</strong> Quas nisi veritatis, placeat quo quidem et aperiam eum, enim in! Accusamus ab, numquam quidem! Nihil blanditiis, libero id qui, asperiores quisquam, expedita vel error molestias sunt nam assumenda unde!</p>
+                    
+                    <p><strong>Success</strong> Amet, pariatur, iusto. Earum illum, eum officia explicabo corporis culpa obcaecati sint totam labore iure, omnis, neque adipisci voluptatem quos aspernatur id. Ut natus harum nulla molestias iste error at.</p>
+                    
+                    <p><strong>Info</strong> Cupiditate enim aperiam unde ipsa quae vel, labore saepe sapiente? Sed aliquam, aut laborum aliquid odit architecto, labore autem, praesentium repellendus nesciunt accusamus consequuntur fugiat perferendis in animi quisquam. Voluptas?</p>
+                    
+                    <p><strong>Warning</strong> Doloremque natus itaque tempore labore repellendus adipisci animi, fuga atque cum ea quos eligendi placeat, facilis saepe. Et temporibus ut sapiente hic ratione, nihil laudantium reprehenderit, alias, ipsam accusantium necessitatibus.</p>
+                    
+                    <p><strong>Danger</strong> Adipisci magnam consequuntur reprehenderit minus! Dolorem distinctio laudantium dignissimos placeat, mollitia veniam autem aut ipsa ratione similique in odio aperiam quia vitae ab qui earum amet adipisci! Officiis aliquid, est?</p>
+                
+                  </section>
+            </div>
+            <p class="highlight">
+                By adding the "text-muted" class can make text appear little lighter.<br>
+                By adding contextual classes like text-primary, text-success can change the text color.<br>
+                By adding bg colors with contextual class like bg-primary, pg-success can change the background color.<br>
+                By adding layout classes pull-left, pull-right, center-block can make image align left, right and center.<br>
+                By adding show, hidden class can dispaly and hide the elements.<br>
+                By adding the invisible class can hide the element but it will take the corresponding white space.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+              
+                    <img class="pull-left" src="images/field_sm.jpg" alt="Dr Winthrop Photo">
+                    
+                    <p class="text-muted"><strong>Muted</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi et id similique cumque consequatur ea minima quas, esse natus molestiae blanditiis laboriosam atque veritatis. Animi sapiente, ipsa! Cum, ad.</p>
+                    
+                    <p class="text-primary"><strong>Primary</strong> Quas nisi veritatis, placeat quo quidem et aperiam eum, enim in! Accusamus ab, numquam quidem! Nihil blanditiis, libero id qui, asperiores quisquam, expedita vel error molestias sunt nam assumenda unde!</p>
+                    
+                    <p class="bg-success"><strong>Success</strong> Amet, pariatur, iusto. Earum illum, eum officia explicabo corporis culpa obcaecati sint totam labore iure, omnis, neque adipisci voluptatem quos aspernatur id. Ut natus harum nulla molestias iste error at.</p>
+                    
+                    <p class="show"><strong>Info</strong> Cupiditate enim aperiam unde ipsa quae vel, labore saepe sapiente? Sed aliquam, aut laborum aliquid odit architecto, labore autem, praesentium repellendus nesciunt accusamus consequuntur fugiat perferendis in animi quisquam. Voluptas?</p>
+                    
+                    <p class="invisible"><strong>Warning</strong> Doloremque natus itaque tempore labore repellendus adipisci animi, fuga atque cum ea quos eligendi placeat, facilis saepe. Et temporibus ut sapiente hic ratione, nihil laudantium reprehenderit, alias, ipsam accusantium necessitatibus.</p>
+                    
+                    <p class="text-muted"><strong>Danger</strong> Adipisci magnam consequuntur reprehenderit minus! Dolorem distinctio laudantium dignissimos placeat, mollitia veniam autem aut ipsa ratione similique in odio aperiam quia vitae ab qui earum amet adipisci! Officiis aliquid, est?</p>
+                
+                  </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Resonsive Utilities</h1>
+            <div class="row">
+                <section class="col-xs-12">
+                    
+                    <p><span class="h1">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi et id similique cumque consequatur ea minima quas, esse natus molestiae blanditiis laboriosam atque veritatis. Animi sapiente, ipsa! Cum, ad.</p>
+                    
+                    <p>Rerum itaque ex distinctio, ullam facilis iste autem omnis fuga quod recusandae amet voluptates debitis maxime suscipit odit animi quisquam velit perspiciatis, non magni. Non, doloremque omnis nam eos esse.</p>
+                    
+                    <p>Consequuntur obcaecati distinctio corporis molestias odio, ex repudiandae laborum, blanditiis ut aspernatur esse dolorem aliquam dolor architecto quos voluptas quas! Maxime impedit voluptatem ipsum, iusto provident nisi odio quod a?</p>
+                    
+                    <p>Vero harum est, esse ex facilis voluptates sequi reprehenderit dolorem unde eveniet alias delectus, ipsa minus voluptatem, suscipit ea officiis! Placeat culpa ducimus dolorum assumenda. Laudantium ratione quos quis eligendi.</p>
+                    
+                </section>
+            </div>
+            <p class="highlight">
+                By adding visible-xs-block element shows up on xs breakpoint as block element.<br>
+                By adding hidden-xs element hide on xs breakpoint.<br>
+                By adding visible-print-block display the element as block while printing.<br>
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    
+                    <p><span class="h1 visible-xs-block">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Amet excepturi et id similique cumque consequatur ea minima quas, esse natus molestiae blanditiis laboriosam atque veritatis. Animi sapiente, ipsa! Cum, ad.</p>
+                    
+                    <p><span class="h1 hidden-xs" style="color:red;">Lorem</span>Rerum itaque ex distinctio, ullam facilis iste autem omnis fuga quod recusandae amet voluptates debitis maxime suscipit odit animi quisquam velit perspiciatis, non magni. Non, doloremque omnis nam eos esse.</p>
+                    
+                    <p>Consequuntur obcaecati distinctio corporis molestias odio, ex repudiandae laborum, blanditiis ut aspernatur esse dolorem aliquam dolor architecto quos voluptas quas! Maxime impedit voluptatem ipsum, iusto provident nisi odio quod a?</p>
+                    
+                    <p>Vero harum est, esse ex facilis voluptates sequi reprehenderit dolorem unde eveniet alias delectus, ipsa minus voluptatem, suscipit ea officiis! Placeat culpa ducimus dolorum assumenda. Laudantium ratione quos quis eligendi.</p>
+                    
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Basic Forms</h1>
+            <div class="row">
+              <section class="col-xs-12">
+                    
+                    <form>
+                        <label for="inputName">Name</label>
+                        <input type="text" id="inputName" 
+                          placeholder="Name">
+                      
+                        <label for="inputEmail">Email</label>
+                        <input type="email" id="inputEmail" 
+                          placeholder="Email">
+                      
+                        <label for="selectSite">Site</label>
+                        <select id="selectSite">
+                          <option>Choose...</option>
+                          <option>lynda.com</option>
+                          <option>raybo.org</option>
+                          <option>iviewsource.com</option>
+                        </select>
+                      
+                        <input id="inputAddList" type="checkbox">
+                        <label for="inputAddList">
+                        Add me to e-mail blast</label>
+                      
+                        <label for="inputComments">Comments</label>
+                        <textarea id="inputComments"></textarea>
+                      
+                        <input type="submit" value="submit">
+                    </form>
+                    
+                </section>
+            </div>
+            <p class="highlight">
+                By adding the "form-control" class will make the element proper padding and take the complete width.<br>
+                By adding the "form-group" class will get the proper gap between the elements. <br>
+                
+            </p>
+            <div class="row">
+              <section class="col-xs-12">
+                    
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input class="form-control" type="text" id="inputName" 
+                              placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input class="form-control" type="email" id="inputEmail" 
+                              placeholder="Email">
+                        </div>
+                      
+                        <div class="form-group">
+                            <label for="selectSite">Site</label>
+                            <select class="form-control" id="selectSite">
+                              <option>Choose...</option>
+                              <option>lynda.com</option>
+                              <option>raybo.org</option>
+                              <option>iviewsource.com</option>
+                            </select>
+                        </div>
+                        
+                        <div class="checkbox">
+                            <label><input id="inputAddList" type="checkbox">
+                            Add me to e-mail blast</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="inputComments">Comments</label>
+                            <textarea class="form-control" id="inputComments"></textarea>
+                        </div>
+                        
+                      
+                        <input class="btn btn-default pull-right" type="submit" value="submit">
+                    </form>
+                    
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Radio and Check boxes</h1>
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input class="form-control" type="text"
+                              id="inputName" placeholder="Your Name">
+                        </div>
+                    
+                        <div class="checkbox"> 
+                            <label>
+                              <input type="checkbox">
+                              One
+                            </label>
+                        </div>
+                    
+                        <div class="checkbox">
+                            <label>
+                              <input type="checkbox">
+                              Two
+                            </label>
+                        </div>
+                        <input class="btn btn-default"
+                          type="submit" value="submit">
+                    </form>
+                    
+                </section>
+            </div>
+            <p class="highlight">
+                Adding radio and checkbox classes will make the proper alignment of the elements. <br>
+                Adding radio-inline and checkbox-inline will align all the radio, checkbox elements in-line format.<br>
+                Disabled property will disables the element selection
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <form>
+                        <div class="form-group">
+                            <label for="inputName">Name</label>
+                            <input class="form-control" type="text"
+                              id="inputName" placeholder="Your Name">
+                        </div>
+                    
+                        <div class="form-group"> 
+                            <label class="radio-inline">
+                              <input name="options" type="radio" disabled>
+                              One
+                            </label>
+                            <label class="radio-inline">
+                              <input name="options" type="radio">
+                              Two
+                            </label>
+                        </div>
+                        <input class="btn btn-default"
+                          type="submit" value="submit">
+                    </form>
+                    
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Validation Form</h1>
+            <div class="row">
+                <section class="col-xs-12">
+                    <form>
+                        <div class="form-group has-success">
+                            <label for="inputName">Name</label>
+                            <input class="form-control" type="text"
+                                id="inputName" placeholder="Your Name">
+                        </div>
+                        
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputName">Name</label>
+                            <input class="form-control" type="text"
+                                id="inputName" placeholder="Your Name">
+                        </div>
+                        
+                        <div class="form-group has-success has-feedback">
+                            <label class="control-label" for="inputName">Name</label>
+                            <input class="form-control" type="text"
+                                id="inputName" placeholder="Your Name">
+                            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                            <span id="nameStatus" class="sr-only">(Success)</span>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Input Groups</h1>
+            <div class="row">
+                <section class="col-xs-12">
+                    <form>
+                        <div class="form-group has-success">
+                            <label for="inputName">Price</label>
+                            <input class="form-control" type="text"
+                                id="inputName" placeholder="Enter Price in doller">
+                        </div>
+                        
+                    </form>
+                </section>
+            </div>
+            <p class="highlight">
+                Allows to combine input filed together with other elements.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <form>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input class="form-control" type="text"
+                                id="inputName" placeholder="Enter Price in doller">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">$</span>
+                                <input class="form-control" type="text"
+                                id="inputName" placeholder="Enter Price in doller">
+                                <span class="input-group-addon">.00</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <input type="checkbox" >
+                                </span>
+                                <input class="form-control" type="text"
+                                id="inputName" placeholder="Enter Price in doller">
+                                <span class="input-group-addon">.00</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="form-control" type="text"
+                                id="inputName" placeholder="Enter search term">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button">Search</button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Fieldset</h1>
+            <p class="highlight">
+                Can do group operations like complete fieldset elements can disable by adding disable attribute to fieldset instead of individual elements.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <form>
+                        <h3>Fieldset1</h3>
+                        <fieldset disabled>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">$</span>
+                                    <input class="form-control" type="text"
+                                    id="inputName" placeholder="Enter Price in doller">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">$</span>
+                                    <input class="form-control" type="text"
+                                    id="inputName" placeholder="Enter Price in doller">
+                                    <span class="input-group-addon">.00</span>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <h3>Fieldset2</h3>
+                        <fieldset>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <input type="checkbox" >
+                                    </span>
+                                    <input class="form-control" type="text"
+                                    id="inputName" placeholder="Enter Price in doller">
+                                    <span class="input-group-addon">.00</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input class="form-control" type="text"
+                                    id="inputName" placeholder="Enter search term">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="button">Search</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </fieldset>
+                        
+                    </form>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Icons</h1>
+            <p class="highlight">
+                we can add icons from glyphicons.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <h1><span class="glyphicon glyphicon-phone text-primary"></span> Phone</h1>
+                    <h1><span class="glyphicon glyphicon-print text-danger" aria-hidden="true"></span>
+                        Print</h1>
+                    <button type="button"><span class="glyphicon glyphicon-print"></span> Print</button>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Dropdown</h1>
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <button type="button"
+                      class="btn btn-info">Pet Type</button>
+                    
+                    <ul>
+                        <li><a href="#">Cat</a></li>
+                        <li><a href="#">Dog</a></li>
+                        <li><a href="#">Fish</a></li>
+                        <li><a href="#">Birds</a></li>
+                        <li><a href="#">Amphibian</a></li>
+                        <li><a href="#">Reptile</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+            
+                </section>
+            </div>
+            <p class="highlight">
+                By adding dropdown, dropdown-menu class makes list element into dropdown.<br>
+                By adding dropdown-header to list will create header lable in dropdown selection.<br>
+                By adding divider class can make the seperation line in the list.<br>
+                By adding disabled will disable the selection of the item.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <div class="dropdown">
+                        <button type="button" data-toggle="dropdown" id="pettype"
+                                aria-haspopup="true" aria-expanded="true"
+                                class="btn btn-info dropdown-toggle">Pet Type
+                        <span class="caret"></span>
+                        </button>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="pettype">
+                            <li class="dropdown-header">Common</li>
+                            <li><a href="#">Cat</a></li>
+                            <li><a href="#">Dog</a></li>
+                            <li><a href="#">Fish</a></li>
+                            <li class="disabled"><a href="#">Birds</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Exotic</li>
+                            <li><a href="#">Amphibian</a></li>
+                            <li><a href="#">Reptile</a></li>
+                            <li><a href="#">Other</a></li>
+                        </ul>
+                    </div>
+                    
+                </section>
+            </div>
+            <p class="highlight">
+                Button group makes the display caret and button properly and toggle the list as will.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+            
+                    <div class="dropdown">
+                        <div class="btn-group" >
+                            <button  class="btn btn-info">Search Pet Info</button>
+                            <button type="button" data-toggle="dropdown" id="pettype"
+                                aria-haspopup="true" aria-expanded="true"
+                                    class="btn btn-info dropdown-toggle">
+                            <span class="caret"></span>
+                            </button>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="pettype">
+                                <li class="dropdown-header">Common</li>
+                                <li><a href="#">Cat</a></li>
+                                <li><a href="#">Dog</a></li>
+                                <li><a href="#">Fish</a></li>
+                                <li class="disabled"><a href="#">Birds</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">Exotic</li>
+                                <li><a href="#">Amphibian</a></li>
+                                <li><a href="#">Reptile</a></li>
+                                <li><a href="#">Other</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div> 
+        </div>
+
+        <div class="container seperator">
+            <h1>Button Groups</h1>
+            <div class="row">
+                <section class="col-xs-12">
+                    <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Dog</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Fish</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Bird</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Reptile</a></button>
+                    <button type="button" class="btn btn-default"><a href="#">Other</a></button>
+                </section>
+            </div>
+            <p class="highlight">
+                btn-group makes the group of unified buttons.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Dog</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Fish</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Bird</a></button>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Reptile</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Other</a></button>
+                    </div>
+                </section>
+            </div>
+            <p class="highlight">
+               btn-group-vertical makes the group of unified buttons in vertical fashion.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <div class="btn-group-vertical">
+                        <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Dog</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Fish</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Bird</a></button>
+                    </div>
+                    <div class="btn-group-vertical">
+                        <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Reptile</a></button>
+                        <button type="button" class="btn btn-default"><a href="#">Other</a></button>
+                    </div>
+                </section>
+            </div>
+            <p class="highlight">
+               btn-tool bar makes the group into tool bar.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <div class="btn-toolbar">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                            <button type="button" class="btn btn-default"><a href="#">Dog</a></button>
+                            <button type="button" class="btn btn-default"><a href="#">Fish</a></button>
+                            <button type="button" class="btn btn-default"><a href="#">Bird</a></button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                            <button type="button" class="btn btn-default"><a href="#">Reptile</a></button>
+                            <button type="button" class="btn btn-default"><a href="#">Other</a></button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <p class="highlight">
+               btn-justify will take the whole width of the container. But each button should keep in the different button group.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <div class="btn-group btn-group-justified">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Cat</a></button>
+                        </div><div class="btn-group">
+                            <button type="button" class="btn btn-default"><a href="#">Amphibian</a></button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Navigation Types</h1>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </section>
+            </div>
+            <p class="highlight">
+                nav class makes the list into navigation.
+                nav-tabs class makes tab form.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </section>
+            </div>
+            <p class="highlight">
+                Active makes that particular element as active.<br>
+                nav-pills makes the slightly different look adding background color.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ul class="nav nav-pills">
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Mission</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </section>
+            </div>
+            <p class="highlight">
+                nav-stacked makes the stackable format.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Mission</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </section>
+            </div>
+            <p class="highlight">
+                nav-justified will justify tabs.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Mission</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Staff</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </section>
+            </div>
+            <p class="highlight">
+                navbar-nav makes like navigation.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="#">Mission</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Staff</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>    
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                navbar-inverse make the different backgorund color and active color.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-inverse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="#">Mission</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Staff</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>    
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                navbar-bottom makes the navigation dispaly at bottom.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default navbar-bottom">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="#">Mission</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Staff</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                        </ul>    
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                navbar-fixed-bottom makes the navigation dispaly at bottom of the page.<br>
+                navbar-fixed-top dispaly at top.
+            </p>
+            <div class="row">
+                <section class="col-xs-12 hidden">
+                    <nav class="navbar navbar-default navbar-fixed-bottom">
+                        <div class="container">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li class="active"><a href="#">Mission</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Staff</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>  
+                        </div>
+                          
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                Navbar-header adds the header to the navigation.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a href="#" class="navbar-brand">
+                                    Navigation Header
+                                </a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li class="active"><a href="#">Mission</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Staff</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>  
+                        </div>
+                          
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                By navbar-btn can add button in navigation bar.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a href="#" class="navbar-brand">
+                                    Navigation Header
+                                </a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li class="active"><a href="#">Mission</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Staff</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                            </ul>
+                            <button class="btn btn-default navbar-btn">Signin</button>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                By navbar-form can add forms in navigation bar.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a href="#" class="navbar-brand">
+                                    Navigation Header
+                                </a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Mission</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Staff</a></li>
+                            </ul>
+                            <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button class="btn btn-default">Go</button>    
+                            </form>
+                            
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            
+            <p class="highlight">
+                Dropdown menu as follows.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <a href="#" class="navbar-brand">
+                                    Navigation Header
+                                </a>
+                            </div>
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Mission</a></li>
+                                <li>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services
+                                    <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Service1</a></li>
+                                        <li><a href="#">Service2</a></li>
+                                        <li><a href="#">Service3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Staff</a></li>
+                            </ul>
+                            <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button class="btn btn-default">Go</button>    
+                            </form>
+                            
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            <p class="highlight">
+                Collapse the menu on breakpoint <768px as follows.
+            </p>
+            <div class="row">
+                <section class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>                                
+                                <a href="#" class="navbar-brand">
+                                    Navigation Header
+                                </a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="collapsemenu">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#">Home</a></li>
+                                    <li class="active"><a href="#">Mission</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Staff</a></li>
+                                    <li><a href="#">Testimonials</a></li>
+                                </ul>  
+                            </div>
+                        </div>
+                    </nav>
+                </section>
+            </div>
+            <h3>Breadcrumbs</h3>
+            <div class="row">
+                <section class="col-xs-12">
+                    <ol>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">grooming</a></li>
+                    </ol>
+                    <p class="highlight">
+                        By Breadcrumb class can create breadcrumbs
+                    </p>
+                    <ol class="breadcrumb">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">grooming</a></li>
+                    </ol>
+                    <ul>
+                        <li><a href="#">Older</a></li>
+                        <li><a href="#">Newer</a></li>
+                    </ul>
+                    <p class="highlight">
+                        By pager class can create left and right navigation
+                    </p>
+                    <ul class="pager">
+                        <li class="previous disabled">
+                            <a href="#">
+                                <span>&larr;</span>Older</a>
+                        </li>
+                        <li class="next">
+                            <a href="#">
+                                <span>&rarr;</span>Newer</a>
+                        </li>
+                    </ul>
+                    <ol>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ol>
+                    <p class="highlight">
+                        By pagination class can create pagination list.
+                    </p>
+                    <nav>
+                        <ol class="pagination pagination-sm">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ol>
+                    </nav>
+                    
+                </section>
+            </div>
+        </div>
+        <h1>Media Components</h1>
+        <div class="container seperator">
+            <h1>Labels and badges</h1>
+            <p class="highlight">
+                Class "jumbotron" makes the element to diplay in gray box and adds padding.
+            </p>
+            <section class="col-sm-12">
+                <div class="jumbotron">
+                    <h2>Our Mission</h2>      
+                    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
+              
+                    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy&nbsp;life.</p>
+                </div>
+            </section>
+            <p class="highlight">
+                Lables and badges usufull css components where you want to pass certain information to user.
+            </p>
+            <section class="col-sm-4">
+                <h3>Exotic Pets
+                <label class="label label-primary">new</label></h3>
+                <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                <a href="">read articles <span class="badge">4</span></a>
+            </section>
+            <h1>Thumbnails</h1>
+            <p class="highlight">
+                By thumbnail class it will dispaly image in thumbnail along with caption.
+            </p>
+            <div class="col-xs-12">
+                <div class="col-xs-6">
+                    <a href="" class="thumbnail">
+                        <img class="icon" src="images/drwinthrop.jpg" alt="Icon">
+                        <div class="caption">
+                            cpation caption caption 
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="col-xs-6">
+                    <a href="" class="thumbnail"><img class="icon" src="images/drchase.jpg" alt="Icon"></a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="" class="thumbnail"><img class="icon" src="images/drsanders.jpg" alt="Icon"></a>
+                </div>
+            </div>
+            <h1>Media</h1>
+            <p class="highlight">
+                Media, media-left, media-body classe will play role to align media and text propelry.
+            </p>
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left media-center">
+                        <a href="" class="media-object">
+                            <img class="icon" src="images/drwinthrop.jpg" alt="Icon">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Exotic Pets</h3>
+                        <p> this is description , this is description , this is description , this is description , this is description.</p>
+                    </div>
+                </div>
+            </div>
+            <h1>Videos</h1>
+            <p class="highlight">
+                Can use repsonsive class like embed-responsive to align video properly<br>
+                We can use with any video element like youtube embed lik as well.
+            </p>
+            <div class="col-xs-12">
+                <div class="col-xs-6 col-sm-4">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <video class="embed-responsive-item" src="videos/brushing.mp4"
+                            autoplay controls muted></video>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Container content</h1>
+            <h3>list groups</h3>
+            <p class="highlight">
+                Convert into standard list group
+            </p>
+            <div class="list-groups">
+                <li class="list-group-item">Cally Reynolds</li>
+                <li class="list-group-item">Sydney Bartlett</li>
+                <li class="list-group-item">Hunter Newton</li>
+            </div>
+            <h3>Panels</h3>
+            <p class="highlight">
+                Can do proper panalising data like header, body and footer.
+            </p>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Title</h3>
+                </div>
+                <div class="panel-body">
+                    <p>It's panel-default here, and then we just put our content in there and you're going to need to divide the content into different parts so you can have a div with a class of panel-body, and if you want to, you can paste your content in there</p>
+                </div>
+                <div class="panel-footer">
+                    &raquo; <a href="">get appointment</a>
+                </div>
+            </div>
+            <h3>Well</h3>
+            <p class="highlight">
+                It also prepares proper padding along with border.
+            </p>
+            <div class="well well-lg">
+                It's panel-default here, and then we just put our content in there and you're going to need to divide the content into different parts so you can have a div with a class of panel-body, and if you want to, you can paste your content in there
+            </div>
+        </div>
+        
+        <div class="container seperator">
+            <h1>Java Script components</h1>
+            <h3>Carousel</h3>
+            <p class="highlight">
+                Carousel will take list of images and show them as presenation like slide show etc.
+            </p>
+            
+            <div class="row">
+                <section class="col-sm-12">
+                    
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-mission.jpg" alt="Mission">
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-vaccinations.jpg" alt="Vaccinations">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h6>Our Mission</h6>
+                    
+                    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                    
+                    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy life.</p>
+            
+                </section>
+            </div>
+            <h3>Carousel slide and caption</h3>
+            <p class="highlight">
+                By default whatever the item has active class it will show up like above.<br>
+                By adding attribute data-ride="carousel"it will do presentation of all.<br>
+                Presentation we can control using classe slide to make slider.<br>
+                By adding carousel-cpation can have caption for each image.
+            </p>
+            
+            <div class="row">
+                <section class="col-sm-12">
+                    
+                    <div class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
+                                <div class="carousel-caption">
+                                    <h3>Headline</h3>
+                                    <p>Dummy text dummy text dummy text.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-mission.jpg" alt="Mission">
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-vaccinations.jpg" alt="Vaccinations">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Our Mission</h2>
+                    
+                    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                    
+                    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy life.</p>
+            
+                </section>
+            </div>
+            <h3>Carousel Navigation </h3>
+            <p class="highlight">
+                By adding carousel-control elements we can have carousel navigation.
+            </p>
+            <div class="row">
+                <section class="col-sm-12">
+                    
+                    <div class="carousel slide" id="featured">
+                        <ol class="carousel-indicators">
+                            <li data-target="#featured" data-slide-to="0" class="active"></li>
+                            <li data-target="#featured" data-slide-to="1"></li>
+                            <li data-target="#featured" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
+                                <div class="carousel-caption">
+                                    <h3>Headline</h3>
+                                    <p>Dummy text dummy text dummy text.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-mission.jpg" alt="Mission">
+                            </div>
+                            <div class="item">
+                                <img src="images/carousel-vaccinations.jpg" alt="Vaccinations">
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control"  href="#featured" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                    <h2>Our Mission</h2>
+                    
+                    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                    
+                    <p>We strive to be your pet's medical experts from youth through the senior years. We build preventative health care plans for each and every one of our patients, based on breed, age, and sex, so that your pet receives the most appropriate care at crucial milestones. We want to give your pet a long and healthy life.</p>
+            
+                </section>
+            </div>
+            <p class="highlight">
+                We can control carousel with jquery script.
+            </p>
+            <pre>
+                $(".carousel").carousel();
+                $(".carousel").carousel({
+                    interval: 2000, //false for no intrevel
+                    pause: false, //for hover pass carousel
+                    wrap: false, //after last it will stop
+                    keyboard: false //to prevent keyboard control
+                });
+            </pre>
+            <h3>Tabs</h3>
+            <p class="highlight">
+                Controlling tab with javascript.
+            </p>
+            <div class="row">
+                <section class="col-sm-12">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active" >
+                            <a href="#tab1" data-toggle="tab">Tab1</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tab2" data-toggle="tab">Tab2</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#tab3" data-toggle="tab">Tab3</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="tab1">
+                            tab content 1
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab2">
+                            tab content 2
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="tab3">
+                            tab content 3
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <h3>collapsible content</h3>
+            <div class="row">
+                <p class="highlight">
+                    By collapse class can handle the collapsible content.
+                </p>
+                <section class="col-sm-12">
+                    <a href="#exoticpets" data-toggle="collapse" class="btn btn-primary">Exotic Pets</a>
+                    <div class="collapse" id="exoticpets">
+                        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                    </div>
+                </section>
+                <p class="highlight">
+                    We can use data-target instead of ancor herf.
+                </p>
+                <section class="col-sm-12">
+                    <div data-target="#exoticpets1" data-toggle="collapse" class="btn btn-primary">Exotic Pets</div>
+                    <div class="collapse" id="exoticpets1">
+                        <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                    </div>
+                </section>
+            </div>
+            <h3>Accordion</h3>
+            <div class="container">
+                <div clas="row">
+                    <p class="highlight">
+                        It will prepare proper collapasable panel with heading and body.
+                    </p>
+                    <section class="col-sm-12">
+                        <div class="panel-group" id="accordion1" >
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#exoticpets6" data-toggle="collapse" data-parent="accordion1">Exotic Pets</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse in" id="exoticpets6">
+                                    <div class="panel-body">
+                                        <p>Accordiion panel body text goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-group" id="accordion2" >
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#exoticpets7" data-toggle="collapse" data-parent="accordion2">Exotic Pets</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse in" id="exoticpets7">
+                                    <div class="panel-body">
+                                        <p>Accordiion panel body text goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container">
+                <div clas="row">
+                    <p class="highlight">
+                        By adding different panels in panel group and corresponding id will handle toggle among list.
+                    </p>
+                    <section class="col-sm-12">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#exoticpets3" data-toggle="collapse" data-parent="#accordion">Exotic Pets</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse in" id="exoticpets3">
+                                    <div class="panel-body">
+                                        <p>Accordiion panel body text goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#exoticpets4" data-toggle="collapse" data-parent="#accordion">Exotic Pets</a>
+                                    </h4>
+                                </div>
+                                <div class="panel-collapse collapse" id="exoticpets4">
+                                    <div class="panel-body">
+                                        <p>Accordiion panel body text goes here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <h3>ToolTips</h3>
+            <div class="row">
+                <p class="highlight">
+                    Tooltip class makes the proper style tooltips. <br>
+                    this won't initiate automatically. we need to add jquery script.
+                    <pre>
+                         $('[data-toggle="tooltip"]').tooltip();    
+                    </pre>
+                </p>
+                <section class="col-sm-12">
+                    <p>Wisdom Pet
+                    <a href="" data-toggle="tooltip" data-placement="top" title="Text for tooltip, text for tooltip.">Medicine</a>
+                     strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.</p>
+                </section>
+            </div>
+            <h3>Popovers</h3>
+            <div class="row">
+                <p class="highlight">
+                    Unlike the tooltips these things need to click to show the text. <br>
+                    this won't initiate automatically. we need to add jquery script.
+                    <pre>
+                         $('[data-toggle="popover"]').popover();    
+                    </pre>
+                </p>
+                <section class="col-sm-12">
+                    <button type="button" class="btn btn-info" 
+                            data-container="body" data-toggle="popover" data-placement="top" data-title="Popover Title" 
+                            data-content="We offere text for popover, and it goes here.">
+                        Popover
+                    </button>
+                </section>
+                <p class="highlight">
+                    By adding data-trigger:focus attribute popover will close on clicking outside.<br>
+                    But this won't work with button, need to add with ancor tag.
+                </p>
+                <section class="col-sm-12">
+                    
+                    <a class="btn btn-info" role="button" tabindex="0"
+                            data-container="body" data-toggle="popover" data-placement="top" data-title="Popover Title"  data-trigger="focus"
+                            data-content="We offere text for popover, and it goes here.">
+                        Popover
+                    </a>
+                </section>
+                
+            </div>
+            <h3>Controlling Menus with Scrollfix</h3>
+            <p class="highlight">
+                By adding data-offset and data-spy can handle floating the navigation always on top.
+            </p>
+            <header>
+                <pre>
+                    <nav class="navbar navbar-default" data-spy="affix" data-offset="500">
+                    </nav>
+                </pre>
+            </header>
+        </div>
+        
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
