@@ -1139,6 +1139,20 @@
                    By adding contextual class like primary, danger, warning, info etc classes you can give colors.<br>
                    By adding table-container make the table responsive like enables scroll an long row size.
                 </p>
+                
+<pre>
+    &lt;div class="table-responsive"&gt;
+        &lt;table class="table table-striped table-hover table-border table-condensed"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;&lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+                &lt;tr class="primary"&gt;&lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+</pre>
+                
                 <section class="col-xs-12">
             
                     <div class="table-responsive">
@@ -1221,6 +1235,11 @@
                 By adding "img-circle" it will give circle images.<br>
                 By adding "img-thumbnail" it will give circle images.
              </p>
+            
+<pre>
+     &lt;img class="img-rounded img-responsive center-block" src="images/drwinthrop.jpg" alt="Dr Winthrop Photo"&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-sm-4">
                     <img src="images/drwinthrop.jpg" class="img-rounded img-responsive center-block"
@@ -1275,6 +1294,13 @@
                 By adding show, hidden class can dispaly and hide the elements.<br>
                 By adding the invisible class can hide the element but it will take the corresponding white space.
             </p>
+            
+<pre>
+    &lt;p class="text-primary"&gt;&lt;/p&gt;
+    &lt;p class="bg-success"&gt;&lt;/p&gt;
+    &lt;img class="pull-left" src="images/field_sm.jpg" alt="Dr Winthrop Photo"&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
               
@@ -1316,6 +1342,12 @@
                 By adding hidden-xs element hide on xs breakpoint.<br>
                 By adding visible-print-block display the element as block while printing.<br>
             </p>
+            
+<pre>
+    &lt;span class="h1 visible-xs-block"&gt;Lorem&lt;/span&gt;
+    &lt;span class="h1 hidden-xs"&gt;Lorem&lt;/span&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     
@@ -1370,6 +1402,14 @@
                 By adding the "form-group" class will get the proper gap between the elements. <br>
                 
             </p>
+            
+<pre>
+    &lt;div class="form-group"&gt;
+        &lt;label for="inputName"&gt;Name&lt;/label&gt;
+        &lt;input class="form-control" id="inputName" placeholder="Name" type="text"&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
               <section class="col-xs-12">
                     
@@ -1449,6 +1489,16 @@
                 Adding radio-inline and checkbox-inline will align all the radio, checkbox elements in-line format.<br>
                 Disabled property will disables the element selection
             </p>
+            
+<pre>
+    &lt;div class="form-group"&gt; 
+        &lt;label class="radio-inline"&gt;
+            &lt;input name="options" disabled="" type="radio"&gt;
+            One
+        &lt;/label&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
             
@@ -1479,6 +1529,15 @@
         
         <div class="container seperator">
             <h1>Validation Form</h1>
+            
+<pre>
+    &lt;div class="form-group has-success"&gt;
+        &lt;label for="inputName"&gt;Name&lt;/label&gt;
+        &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Your Name"&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <form>
@@ -1487,12 +1546,36 @@
                             <input class="form-control" type="text"
                                 id="inputName" placeholder="Your Name">
                         </div>
+                        <div class="highlight">
+                            By adding the control-lable class will affect the same color style to corresponding label.
+                        </div>
+                        
+<pre>
+    &lt;div class="form-group has-success"&gt;
+        &lt;label class="control-label" for="inputName"&gt;Name&lt;/label&gt;
+        &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Your Name"&gt;
+    &lt;/div&gt;
+</pre>
                         
                         <div class="form-group has-success">
                             <label class="control-label" for="inputName">Name</label>
                             <input class="form-control" type="text"
                                 id="inputName" placeholder="Your Name">
                         </div>
+                        <div class="highlight">
+                            We can show the icons as well along with this validation. <br>
+                            Bootstrap uses the glyphicons.
+                        </div>
+                        
+<pre>
+    &lt;div class="form-group has-success has-feedback"&gt;
+        &lt;label class="control-label" for="inputName"&gt;Name&lt;/label&gt;
+        &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Your Name"&gt;
+        &lt;span class="glyphicon glyphicon-ok form-control-feedback"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+</pre>
                         
                         <div class="form-group has-success has-feedback">
                             <label class="control-label" for="inputName">Name</label>
@@ -1523,6 +1606,17 @@
             <p class="highlight">
                 Allows to combine input filed together with other elements.
             </p>
+            
+<pre>
+    &lt;div class="form-group"&gt;
+        &lt;div class="input-group"&gt;
+            &lt;span class="input-group-addon"&gt;$&lt;/span&gt;
+            &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Your Name"&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <form>
@@ -1533,6 +1627,18 @@
                                 id="inputName" placeholder="Enter Price in doller">
                             </div>
                         </div>
+                        
+<pre>
+    &lt;div class="form-group"&gt;
+        &lt;div class="input-group"&gt;
+            &lt;span class="input-group-addon"&gt;$&lt;/span&gt;
+            &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Enter Price in doller"&gt;
+            &lt;span class="input-group-addon"&gt;.00&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                        
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon">$</span>
@@ -1541,6 +1647,20 @@
                                 <span class="input-group-addon">.00</span>
                             </div>
                         </div>
+                        
+<pre>
+    &lt;div class="form-group"&gt;
+        &lt;div class="input-group"&gt;
+            &lt;span class="input-group-addon"&gt;
+                &lt;input type="checkbox" &gt;
+            &lt;/span&gt;
+            &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Enter Price in doller"&gt;
+            &lt;span class="input-group-addon"&gt;.00&lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                        
                         <div class="form-group">
                             <div class="input-group">
                                 <span class="input-group-addon">
@@ -1551,6 +1671,19 @@
                                 <span class="input-group-addon">.00</span>
                             </div>
                         </div>
+                        
+<pre>
+    &lt;div class="form-group"&gt;
+        &lt;div class="input-group"&gt;
+            &lt;input class="form-control" type="text"
+            id="inputName" placeholder="Enter search term"&gt;
+            &lt;span class="input-group-btn"&gt;
+                &lt;button class="btn btn-primary" type="button"&gt;Search&lt;/button&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                        
                         <div class="form-group">
                             <div class="input-group">
                                 <input class="form-control" type="text"
@@ -1570,6 +1703,27 @@
             <p class="highlight">
                 Can do group operations like complete fieldset elements can disable by adding disable attribute to fieldset instead of individual elements.
             </p>
+            
+<pre>
+    &lt;fieldset disabled&gt;
+        &lt;div class="form-group"&gt;
+            &lt;div class="input-group"&gt;
+                &lt;span class="input-group-addon"&gt;$&lt;/span&gt;
+                &lt;input class="form-control" type="text"
+                id="inputName" placeholder="Enter Price in doller"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="form-group"&gt;
+            &lt;div class="input-group"&gt;
+                &lt;span class="input-group-addon"&gt;$&lt;/span&gt;
+                &lt;input class="form-control" type="text"
+                id="inputName" placeholder="Enter Price in doller"&gt;
+                &lt;span class="input-group-addon"&gt;.00&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <form>
@@ -1624,6 +1778,13 @@
             <p class="highlight">
                 we can add icons from glyphicons.
             </p>
+            
+<pre>
+    &lt;h1&gt;&lt;span class="glyphicon glyphicon-phone text-primary"&gt;&lt;/span&gt; Phone&lt;/h1&gt;
+    &lt;h1&gt;&lt;span class="glyphicon glyphicon-print text-danger" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;button type="button"&gt;&lt;span class="glyphicon glyphicon-print"&gt;&lt;/span&gt; Print&lt;/button&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <h1><span class="glyphicon glyphicon-phone text-primary"></span> Phone</h1>
@@ -1660,6 +1821,30 @@
                 By adding divider class can make the seperation line in the list.<br>
                 By adding disabled will disable the selection of the item.
             </p>
+            
+<pre>
+    &lt;div class="dropdown"&gt;
+        &lt;button type="button" data-toggle="dropdown" id="pettype"
+                aria-haspopup="true" aria-expanded="true"
+                class="btn btn-info dropdown-toggle"&gt;Pet Type
+        &lt;span class="caret"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        
+        &lt;ul class="dropdown-menu" aria-labelledby="pettype"&gt;
+            &lt;li class="dropdown-header"&gt;Common&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Cat&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Dog&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Fish&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="disabled"&gt;&lt;a href="#"&gt;Birds&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="separator" class="divider"&gt;&lt;/li&gt;
+            &lt;li class="dropdown-header"&gt;Exotic&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Amphibian&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Reptile&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Other&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
             
@@ -1689,6 +1874,31 @@
             <p class="highlight">
                 Button group makes the display caret and button properly and toggle the list as will.
             </p>
+
+<pre>
+    &lt;div class="dropdown"&gt;
+        &lt;div class="btn-group"&gt;
+            &lt;button class="btn btn-info"&gt;Search Pet Info&lt;/button&gt;
+            &lt;button type="button" data-toggle="dropdown" id="pettype" aria-haspopup="true" aria-expanded="true" class="btn btn-info dropdown-toggle"&gt;
+            &lt;span class="caret"&gt;&lt;/span&gt;
+            &lt;/button&gt;
+          
+            &lt;ul class="dropdown-menu" aria-labelledby="pettype"&gt;
+                &lt;li class="dropdown-header"&gt;Common&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Cat&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Dog&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Fish&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="disabled"&gt;&lt;a href="#"&gt;Birds&lt;/a&gt;&lt;/li&gt;
+                &lt;li role="separator" class="divider"&gt;&lt;/li&gt;
+                &lt;li class="dropdown-header"&gt;Exotic&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Amphibian&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Reptile&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Other&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
             
@@ -1735,6 +1945,16 @@
             <p class="highlight">
                 btn-group makes the group of unified buttons.
             </p>
+            
+<pre>
+    &lt;div class="btn-group"&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Cat&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Dog&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Fish&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Bird&lt;/a&gt;&lt;/button&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <div class="btn-group">
@@ -1753,6 +1973,16 @@
             <p class="highlight">
                btn-group-vertical makes the group of unified buttons in vertical fashion.
             </p>
+            
+<pre>
+    &lt;div class="btn-group-vertical"&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Cat&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Dog&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Fish&lt;/a&gt;&lt;/button&gt;
+        &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Bird&lt;/a&gt;&lt;/button&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <div class="btn-group-vertical">
@@ -1771,6 +2001,23 @@
             <p class="highlight">
                btn-tool bar makes the group into tool bar.
             </p>
+            
+<pre>
+    &lt;div class="btn-toolbar"&gt;
+        &lt;div class="btn-group"&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Cat&lt;/a&gt;&lt;/button&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Dog&lt;/a&gt;&lt;/button&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Fish&lt;/a&gt;&lt;/button&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Bird&lt;/a&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class="btn-group"&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Amphibian&lt;/a&gt;&lt;/button&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Reptile&lt;/a&gt;&lt;/button&gt;
+            &lt;button type="button" class="btn btn-default"&gt;&lt;a href="#"&gt;Other&lt;/a&gt;&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <div class="btn-toolbar">
@@ -1791,6 +2038,11 @@
             <p class="highlight">
                btn-justify will take the whole width of the container. But each button should keep in the different button group.
             </p>
+
+<pre>
+    &lt;div class="btn-group btn-group-justified"&gt;&lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <div class="btn-group btn-group-justified">
@@ -1833,6 +2085,17 @@
                 nav class makes the list into navigation.
                 nav-tabs class makes tab form.
             </p>
+            
+<pre>
+    &lt;ul class="nav nav-tabs"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Mission&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Staff&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <ul class="nav nav-tabs">
@@ -1848,6 +2111,11 @@
                 Active makes that particular element as active.<br>
                 nav-pills makes the slightly different look adding background color.
             </p>
+            
+<pre>
+    &lt;li class="active"&gt;&lt;a href="#"&gt;Mission&lt;/a&gt;&lt;/li&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <ul class="nav nav-pills">
@@ -1862,6 +2130,11 @@
             <p class="highlight">
                 nav-stacked makes the stackable format.
             </p>
+            
+<pre>
+    &lt;ul class="nav nav-pills nav-stacked"&gt;&lt;/ul&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <ul class="nav nav-pills nav-stacked">
@@ -1876,6 +2149,11 @@
             <p class="highlight">
                 nav-justified will justify tabs.
             </p>
+            
+<pre>
+    &lt;ul class="nav navbar-nav"&gt;&lt;/ul&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <ul class="nav nav-pills nav-justified">
@@ -1906,6 +2184,12 @@
             <p class="highlight">
                 navbar-inverse make the different backgorund color and active color.
             </p>
+            
+<pre>
+    &lt;nav class="navbar navbar-default"&gt;&lt;/nav&gt;
+    &lt;nav class="navbar navbar-inverse"&gt;&lt;/nav&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <nav class="navbar navbar-inverse">
@@ -1958,6 +2242,27 @@
             <p class="highlight">
                 Navbar-header adds the header to the navigation.
             </p>
+            
+<pre>
+    &lt;nav class="navbar navbar-default"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="navbar-header"&gt;
+                &lt;a href="#" class="navbar-brand"&gt;
+                    Navigation Header
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;ul class="nav navbar-nav"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="active"&gt;&lt;a href="#"&gt;Mission&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Staff&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;  
+        &lt;/div&gt;
+          
+    &lt;/nav&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <nav class="navbar navbar-default">
@@ -2006,6 +2311,31 @@
             <p class="highlight">
                 By navbar-form can add forms in navigation bar.
             </p>
+            
+<pre>
+    &lt;nav class="navbar navbar-default"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="navbar-header"&gt;
+                &lt;a href="#" class="navbar-brand"&gt;
+                    Navigation Header
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;ul class="nav navbar-nav"&gt;
+                &lt;li class="active"&gt;&lt;a href="#"&gt;Mission&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Staff&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;form class="navbar-form navbar-left"&gt;
+                &lt;div class="form-group"&gt;
+                    &lt;input class="form-control" placeholder="Search" type="text"&gt;
+                &lt;/div&gt;
+                &lt;button class="btn btn-default"&gt;Go&lt;/button&gt;    
+            &lt;/form&gt;
+            
+        &lt;/div&gt;
+    &lt;/nav&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <nav class="navbar navbar-default">
@@ -2071,6 +2401,33 @@
             <p class="highlight">
                 Collapse the menu on breakpoint <768px as follows.
             </p>
+            
+<pre>
+    &lt;nav class="navbar navbar-default"&gt;
+        &lt;div class="container"&gt;
+            &lt;div class="navbar-header"&gt;
+                &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu"&gt;
+                    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                    &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                &lt;/button&gt;                                
+                &lt;a href="#" class="navbar-brand"&gt;
+                    Navigation Header
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class="collapse navbar-collapse" id="collapsemenu"&gt;
+                &lt;ul class="nav navbar-nav"&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class="active"&gt;&lt;a href="#"&gt;Mission&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Staff&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href="#"&gt;Testimonials&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;  
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-xs-12">
                     <nav class="navbar navbar-default">
@@ -2109,6 +2466,15 @@
                     <p class="highlight">
                         By Breadcrumb class can create breadcrumbs
                     </p>
+                    
+<pre>
+    &lt;ol class="breadcrumb"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;services&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;grooming&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+</pre>
+                    
                     <ol class="breadcrumb">
                         <li><a href="#">home</a></li>
                         <li><a href="#">services</a></li>
@@ -2121,6 +2487,20 @@
                     <p class="highlight">
                         By pager class can create left and right navigation
                     </p>
+                    
+<pre>
+    &lt;ul class="pager"&gt;
+        &lt;li class="previous disabled"&gt;
+            &lt;a href="#"&gt;
+                &lt;span&gt;←&lt;/span&gt;Older&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="next"&gt;
+            &lt;a href="#"&gt;
+                &lt;span&gt;→&lt;/span&gt;Newer&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+</pre>
+                    
                     <ul class="pager">
                         <li class="previous disabled">
                             <a href="#">
@@ -2139,6 +2519,19 @@
                     <p class="highlight">
                         By pagination class can create pagination list.
                     </p>
+                    
+<pre>
+    &lt;nav&gt;
+        &lt;ol class="pagination pagination-sm"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;«&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;»&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/nav&gt;
+</pre>
+                    
                     <nav>
                         <ol class="pagination pagination-sm">
                             <li><a href="#">&laquo;</a></li>
@@ -2154,10 +2547,21 @@
         </div>
         <h1>Media Components</h1>
         <div class="container seperator">
+            <div class="row">
             <h1>Labels and badges</h1>
             <p class="highlight">
                 Class "jumbotron" makes the element to diplay in gray box and adds padding.
             </p>
+        
+<pre>
+    &lt;div class="jumbotron"&gt;
+        &lt;h2&gt;Our Mission&lt;/h2&gt;      
+        &lt;p&gt;Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in.&lt;/p&gt;
+  
+        &lt;p&gt;We ernative medicine in.&lt;/p&gt;
+    &lt;/div&gt;
+</pre>
+            
             <section class="col-sm-12">
                 <div class="jumbotron">
                     <h2>Our Mission</h2>      
@@ -2175,10 +2579,22 @@
                 <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
                 <a href="">read articles <span class="badge">4</span></a>
             </section>
+            </div>
+            <div class="row">
             <h1>Thumbnails</h1>
             <p class="highlight">
                 By thumbnail class it will dispaly image in thumbnail along with caption.
             </p>
+            
+<pre>
+    &lt;a href="" class="thumbnail"&gt;
+        &lt;img class="icon" src="images/drwinthrop.jpg" alt="Icon"&gt;
+        &lt;div class="caption"&gt;
+            cpation caption caption 
+        &lt;/div&gt;
+    &lt;/a&gt;
+</pre>
+            
             <div class="col-xs-12">
                 <div class="col-xs-6">
                     <a href="" class="thumbnail">
@@ -2200,6 +2616,21 @@
             <p class="highlight">
                 Media, media-left, media-body classe will play role to align media and text propelry.
             </p>
+            
+<pre>
+    &lt;div class="media"&gt;
+        &lt;div class="media-left media-center"&gt;
+            &lt;a href="" class="media-object"&gt;
+                &lt;img class="icon" src="images/drwinthrop.jpg" alt="Icon"&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="media-body"&gt;
+            &lt;h3 class="media-heading"&gt;Exotic Pets&lt;/h3&gt;
+            &lt;p&gt; this is description , this is description , this is description , this is description , this is description.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="col-xs-12">
                 <div class="media">
                     <div class="media-left media-center">
@@ -2218,6 +2649,13 @@
                 Can use repsonsive class like embed-responsive to align video properly<br>
                 We can use with any video element like youtube embed lik as well.
             </p>
+            
+<pre>
+    &lt;div class="embed-responsive embed-responsive-4by3"&gt;
+        &lt;video class="embed-responsive-item" src="videos/brushing.mp4" autoplay="" controls="" muted=""&gt;&lt;/video&gt;    
+    &lt;/div&gt;
+</pre>
+            
             <div class="col-xs-12">
                 <div class="col-xs-6 col-sm-4">
                     <div class="embed-responsive embed-responsive-4by3">
@@ -2225,6 +2663,7 @@
                             autoplay controls muted></video>    
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         
@@ -2234,6 +2673,15 @@
             <p class="highlight">
                 Convert into standard list group
             </p>
+            
+<pre>
+    &lt;div class="list-groups"&gt;
+        &lt;li class="list-group-item"&gt;Cally Reynolds&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;Sydney Bartlett&lt;/li&gt;
+        &lt;li class="list-group-item"&gt;Hunter Newton&lt;/li&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="list-groups">
                 <li class="list-group-item">Cally Reynolds</li>
                 <li class="list-group-item">Sydney Bartlett</li>
@@ -2243,6 +2691,21 @@
             <p class="highlight">
                 Can do proper panalising data like header, body and footer.
             </p>
+            
+<pre>
+    &lt;div class="panel panel-primary"&gt;
+        &lt;div class="panel-heading"&gt;
+            &lt;h3 class="panel-title"&gt;Title&lt;/h3&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-body"&gt;
+            &lt;p&gt;It's panel-default here, and then we just put our content in there and you're going to need to divide the content into different parts so you can have a div with a class of panel-body, and if you want to, you can paste your content in there&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="panel-footer"&gt;
+            » &lt;a href=""&gt;get appointment&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="panel panel-primary">
                 <div class="panel-heading">
                     <h3 class="panel-title">Title</h3>
@@ -2258,6 +2721,13 @@
             <p class="highlight">
                 It also prepares proper padding along with border.
             </p>
+            
+<pre>
+    &lt;div class="well well-lg"&gt;
+        It's panel-default here, and then we just put our content in 
+    &lt;/div&gt;
+</pre>
+            
             <div class="well well-lg">
                 It's panel-default here, and then we just put our content in there and you're going to need to divide the content into different parts so you can have a div with a class of panel-body, and if you want to, you can paste your content in there
             </div>
@@ -2303,6 +2773,26 @@
                 By adding carousel-cpation can have caption for each image.
             </p>
             
+<pre>
+    &lt;div class="carousel slide" data-ride="carousel"&gt;
+        &lt;div class="carousel-inner"&gt;
+            &lt;div class="item"&gt;
+                &lt;img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo"&gt;
+                &lt;div class="carousel-caption"&gt;
+                    &lt;h3&gt;Headline&lt;/h3&gt;
+                    &lt;p&gt;Dummy text dummy text dummy text.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="item active"&gt;
+                &lt;img src="images/carousel-mission.jpg" alt="Mission"&gt;
+            &lt;/div&gt;
+            &lt;div class="item"&gt;
+                &lt;img src="images/carousel-vaccinations.jpg" alt="Vaccinations"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-sm-12">
                     
@@ -2336,6 +2826,38 @@
             <p class="highlight">
                 By adding carousel-control elements we can have carousel navigation.
             </p>
+            
+<pre>
+    &lt;div class="carousel slide" id="featured"&gt;
+        &lt;ol class="carousel-indicators"&gt;
+            &lt;li data-target="#featured" data-slide-to="0" class="active"&gt;&lt;/li&gt;
+            &lt;li data-target="#featured" data-slide-to="1"&gt;&lt;/li&gt;
+            &lt;li data-target="#featured" data-slide-to="2"&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;div class="carousel-inner"&gt;
+            &lt;div class="item active"&gt;
+                &lt;img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo"&gt;
+                &lt;div class="carousel-caption"&gt;
+                    &lt;h3&gt;Headline&lt;/h3&gt;
+                    &lt;p&gt;Dummy text dummy text dummy text.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="item"&gt;
+                &lt;img src="images/carousel-mission.jpg" alt="Mission"&gt;
+            &lt;/div&gt;
+            &lt;div class="item"&gt;
+                &lt;img src="images/carousel-vaccinations.jpg" alt="Vaccinations"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a class="left carousel-control" href="#featured" role="button" data-slide="prev"&gt;
+            &lt;span class="glyphicon glyphicon-chevron-left"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class="right carousel-control" href="#featured" role="button" data-slide="next"&gt;
+            &lt;span class="glyphicon glyphicon-chevron-right"&gt;&lt;/span&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-sm-12">
                     
@@ -2391,6 +2913,32 @@
             <p class="highlight">
                 Controlling tab with javascript.
             </p>
+            
+<pre>
+    &lt;ul class="nav nav-tabs"&gt;
+        &lt;li role="presentation" class="active"&gt;
+            &lt;a href="#tab1" data-toggle="tab"&gt;Tab1&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li role="presentation"&gt;
+            &lt;a href="#tab2" data-toggle="tab"&gt;Tab2&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li role="presentation"&gt;
+            &lt;a href="#tab3" data-toggle="tab"&gt;Tab3&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content"&gt;
+        &lt;div role="tabpanel" class="tab-pane active" id="tab1"&gt;
+            tab content 1
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="tab2"&gt;
+            tab content 2
+        &lt;/div&gt;
+        &lt;div role="tabpanel" class="tab-pane" id="tab3"&gt;
+            tab content 3
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+            
             <div class="row">
                 <section class="col-sm-12">
                     <ul class="nav nav-tabs">
@@ -2422,6 +2970,14 @@
                 <p class="highlight">
                     By collapse class can handle the collapsible content.
                 </p>
+                
+<pre>
+    &lt;a href="#exoticpets" data-toggle="collapse" class="btn btn-primary collapsed" aria-expanded="false"&gt;Exotic Pets&lt;/a&gt;
+    &lt;div class="collapse" id="exoticpets" aria-expanded="false" style="height: 0px;"&gt;
+        &lt;p&gt;Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and cures.&lt;/p&gt;
+    &lt;/div&gt;
+</pre>
+                
                 <section class="col-sm-12">
                     <a href="#exoticpets" data-toggle="collapse" class="btn btn-primary">Exotic Pets</a>
                     <div class="collapse" id="exoticpets">
@@ -2444,6 +3000,24 @@
                     <p class="highlight">
                         It will prepare proper collapasable panel with heading and body.
                     </p>
+                    
+<pre>
+    &lt;div class="panel-group" id="accordion1"&gt;
+        &lt;div class="panel panel-primary"&gt;
+            &lt;div class="panel-heading"&gt;
+                &lt;h4 class="panel-title"&gt;
+                    &lt;a href="#exoticpets6" data-toggle="collapse" data-parent="accordion1" class="" aria-expanded="true"&gt;Exotic Pets&lt;/a&gt;
+                &lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class="panel-collapse collapse in" id="exoticpets6" style="" aria-expanded="true"&gt;
+                &lt;div class="panel-body"&gt;
+                    &lt;p&gt;Accordiion panel body text goes here.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                    
                     <section class="col-sm-12">
                         <div class="panel-group" id="accordion1" >
                             <div class="panel panel-primary">
@@ -2481,6 +3055,36 @@
                     <p class="highlight">
                         By adding different panels in panel group and corresponding id will handle toggle among list.
                     </p>
+                    
+<pre>
+    &lt;div class="panel-group" id="accordion"&gt;
+        &lt;div class="panel panel-primary"&gt;
+            &lt;div class="panel-heading"&gt;
+                &lt;h4 class="panel-title"&gt;
+                    &lt;a href="#exoticpets3" data-toggle="collapse" data-parent="#accordion"&gt;Exotic Pets&lt;/a&gt;
+                &lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class="panel-collapse collapse in" id="exoticpets3"&gt;
+                &lt;div class="panel-body"&gt;
+                    &lt;p&gt;Accordiion panel body text goes here.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="panel panel-primary"&gt;
+            &lt;div class="panel-heading"&gt;
+                &lt;h4 class="panel-title"&gt;
+                    &lt;a href="#exoticpets4" data-toggle="collapse" data-parent="#accordion"&gt;Exotic Pets&lt;/a&gt;
+                &lt;/h4&gt;
+            &lt;/div&gt;
+            &lt;div class="panel-collapse collapse" id="exoticpets4"&gt;
+                &lt;div class="panel-body"&gt;
+                    &lt;p&gt;Accordiion panel body text goes here.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</pre>
+                    
                     <section class="col-sm-12">
                         <div class="panel-group" id="accordion">
                             <div class="panel panel-primary">
@@ -2516,9 +3120,10 @@
                 <p class="highlight">
                     Tooltip class makes the proper style tooltips. <br>
                     this won't initiate automatically. we need to add jquery script.
-                    <pre>
-                         $('[data-toggle="tooltip"]').tooltip();    
-                    </pre>
+<pre>
+    &lt;a href="" data-toggle="tooltip" data-placement="top" title="" data-original-title="Text for tooltip, text for tooltip."&gt;Medicine&lt;/a&gt;
+     $('[data-toggle="tooltip"]').tooltip();    
+</pre>
                 </p>
                 <section class="col-sm-12">
                     <p>Wisdom Pet
@@ -2531,9 +3136,11 @@
                 <p class="highlight">
                     Unlike the tooltips these things need to click to show the text. <br>
                     this won't initiate automatically. we need to add jquery script.
-                    <pre>
-                         $('[data-toggle="popover"]').popover();    
-                    </pre>
+                    
+<pre>
+    &lt;button class="btn btn-info" type="button" data-container="body" data-toggle="popover" data-placement="top" data-title="Popover Title" data-content="We offere text for popover, and it goes here." data-original-title="" title=""&gt; Popover &lt;/button&gt;
+     $('[data-toggle="popover"]').popover();    
+</pre>
                 </p>
                 <section class="col-sm-12">
                     <button type="button" class="btn btn-info" 
@@ -2546,6 +3153,12 @@
                     By adding data-trigger:focus attribute popover will close on clicking outside.<br>
                     But this won't work with button, need to add with ancor tag.
                 </p>
+                
+<pre>
+    &lt;a class="btn btn-info" role="button" tabindex="0" data-container="body" data-toggle="popover" data-placement="top" data-title="Popover Title" data-trigger="focus" data-content="We offere text for popover, and it goes here." data-original-title="" title=""&gt; Popover
+    &lt;/a&gt;
+</pre>
+                
                 <section class="col-sm-12">
                     
                     <a class="btn btn-info" role="button" tabindex="0"
@@ -2561,10 +3174,10 @@
                 By adding data-offset and data-spy can handle floating the navigation always on top.
             </p>
             <header>
-                <pre>
-                    <nav class="navbar navbar-default" data-spy="affix" data-offset="500">
-                    </nav>
-                </pre>
+<pre>
+    &lt;nav class="navbar navbar-default" data-spy="affix" data-offset="500"&gt;
+    &lt;/nav&gt;
+</pre>
             </header>
         </div>
         
